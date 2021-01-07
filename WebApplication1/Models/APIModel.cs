@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace WebApplication1.Models
 {
-    public class TestModel
+    public class APIModel
     {
         public int id { get; set; }
         public string name { get; set; }
