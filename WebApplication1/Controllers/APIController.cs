@@ -9,7 +9,7 @@ namespace WebApplication1.Controllers
 {
     public class APIController : ControllerBase
     {
-        [HttpGet("{id}")]
+        [HttpGet()]
         public List<APIPerson> GetPeople(int id)
         {
             // URL to call this is https://localhost:44390/API/GetPeople
